@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: sonthuy_admin
+    image: app-prod
+    build:
+      context: .
+      target: production
+    env_file: .env
+    ports:
+      - ${EXPORT_PORT}:80
