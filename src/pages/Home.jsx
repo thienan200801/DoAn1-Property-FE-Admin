@@ -155,7 +155,7 @@ export default function Home() {
               </Button>
             </Link>
             <Typography variant="button" sx={{ mt: "8px", fontWeight: "bold" }}>
-              Danh sách liên hệ
+              Danh sách khách hàng
             </Typography>
           </Grid>
         </Grid>

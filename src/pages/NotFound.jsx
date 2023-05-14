@@ -30,6 +30,7 @@ export default function NotFound() {
         <Typography sx={{ textAlign: "center" }}>
           Không tìm thấy tài sản hoặc bài viết phù hợp
         </Typography>
+        
         <Button onClick={navigateToHome} variant="outlined" sx={{ mt: 2 }}>
           Trở về trang chủ
         </Button>
