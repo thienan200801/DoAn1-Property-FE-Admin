@@ -17,6 +17,7 @@ import {
 
 function* actGetPosts(action) {
   const { postType } = action;
+
   yield put({ type: ActionTypes.SHOW_LOADING });
 
   try {
