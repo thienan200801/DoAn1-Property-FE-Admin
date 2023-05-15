@@ -12,17 +12,6 @@ export default function Footer() {
         gap: "4px",
         py: "16px",
       }}
-    >
-      <Typography sx={{ color: "#ccc" }}>Powered by</Typography>
-      <a
-        href="http://webdevstudios.org/"
-        style={{
-          textDecoration: "none",
-          color: "#E6673B",
-        }}
-      >
-        WebDev Studios
-      </a>
-    </Paper>
+    ></Paper>
   );
 }
