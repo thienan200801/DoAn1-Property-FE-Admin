@@ -17,7 +17,6 @@ export default function Posts() {
 
   useEffect(() => {
     dispatch({ type: ActionTypes.GET_POSTS, posts: [] });
-    
     dispatch({ type: SagaActionTypes.GET_POSTS_SAGA, postType: "NEWS" });
   }, []);
 
